@@ -6,5 +6,6 @@
 #define delWind (float)WindowH/(float)WindowW
 
 #define ColorConv(color) (float)(color)/255.0
+#define sq(x) ((x)*(x))
 
 #endif

@@ -15,7 +15,7 @@ int main(){
 
   RenderWindow win(VideoMode(WindowW, WindowH), "My Game");
   win.setFramerateLimit(60);
-  
+
 
   while(win.isOpen()){
     Event ev;
@@ -27,11 +27,14 @@ int main(){
     glClearColor(0.4, 0.4, 0.4, 1);
     glClear(GL_COLOR_BUFFER_BIT);
 
+
     Rects.output();
 
     win.display();
     win.clear();
   }
+
+  system("clear && ls && git add . && git status");
 
   return 0;
 }
